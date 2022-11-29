@@ -1,0 +1,29 @@
+body{
+    box-sizing: border-box;
+}
+
+
+.grid-container{
+    display: grid; 
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding-block: 30px;
+    width: 95%;
+    margin: auto; 
+   
+}
+
+
+.section{
+  border: 1px solid lightgrey; 
+}
+
+.grid-span{
+    grid-column: span 3;
+}
+
+.grid-menu{
+    height: 800px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
