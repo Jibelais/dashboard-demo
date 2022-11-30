@@ -4,7 +4,8 @@
 const Rating = () => {
     return(
         <div>
-            <p>Rating</p>
+            <p className = 'title'>Rating</p>
+            <img className = "chart" src = "rating.png" alt="rating" />
         </div>
     )
 

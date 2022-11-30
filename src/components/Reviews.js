@@ -4,7 +4,8 @@
 const Reviews = () => {
     return(
         <div>
-            <p>Reviews</p>
+            <p className = 'title'>Reviews</p>
+            <img className = "chart" src = "reviews.png" alt="reviews" />
         </div>
     )
 

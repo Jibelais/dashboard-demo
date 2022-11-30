@@ -5,7 +5,8 @@
 const Analysis = () => {
     return(
         <div>
-            <p>Analysis</p>
+            <p className = 'title'>Analysis</p>
+            <img className = "chart" src = "chart.png" alt="pie chart" />
         </div>
     )
 

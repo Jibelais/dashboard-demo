@@ -1,7 +1,9 @@
 body{
     box-sizing: border-box;
+    background-color: #746b8a;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 .grid-container{
     display: grid; 
@@ -15,7 +17,8 @@ body{
 
 
 .section{
-  border: 1px solid lightgrey; 
+  background-color: #45425e ;
+  border-radius: 10px;
 }
 
 .grid-span{
@@ -26,4 +29,27 @@ body{
     height: 800px;
     grid-row-start: 1;
     grid-row-end: 3;
+}
+
+.flex-menu-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    margin-left: 20px;
+}
+
+.title{
+    font-size: 11px ;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+.chart{
+    width: 80%;
+    height: auto;
+    margin: 20px;
+}
+
+.visitors-graph{
+    width: 100%;
 }

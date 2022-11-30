@@ -8,7 +8,7 @@ import Rating from './components/Raiting'
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <main className='grid-container'>
           <section className = "section grid-menu">
             <Menu/>
